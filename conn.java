@@ -14,8 +14,8 @@ public class conn{
     public conn(){  
         try{            
             Class.forName("com.mysql.cj.jdbc.Driver");
-            String url="jdbc:mysql://localhost:3306/hotelmanagementsystem"; 
-            c =DriverManager.getConnection("jdbc:mysql:///corona","root","Aarthipoornimaa51827");             
+            String url="jdbc:mysql://localhost:3306/corona"; 
+            c =DriverManager.getConnection("jdbc:mysql:///corona","root","srikanth5297");             
             s =c.createStatement();  
         }catch(Exception e){ 
             System.out.println(e);
