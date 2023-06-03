@@ -1,0 +1,15 @@
+create database corona;
+create table login(username varchar(25), password varchar(25),loginas varchar(10));
+insert into signup values('Admin','admin','Admin','12345');
+
+create table signup(role varchar(25),username varchar(25),name varchar(25), password varchar(25));
+
+select * from signup;
+
+select * from login;
+
+create table addcentre(centreid varchar(25),centre varchar(25),Landmark varchar(20),workinghours varchar(20));
+select * from addcentre;
+
+create table apply(name varchar(20),userid varchar(20),centreid varchar(25),date varchar(20));
+select * from apply;
